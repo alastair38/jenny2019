@@ -39,10 +39,10 @@ $query = new WP_Query( $args );
             </div>
 
 <div id="themes" class="large-4 small-12 columns">
-    <div class="enabling-places small-6 columns">
+    <div class="healthy-aging small-6 columns">
     <?php
             // Get the ID of a given category
-            $category_id = get_cat_ID( 'Enabling Places' );
+            $category_id = get_cat_ID( 'Healthy Aging' );
 
             // Get the URL of this category
             $category_link = get_category_link( $category_id );
@@ -98,7 +98,7 @@ $query = new WP_Query( $args );
     <div class="adolescent-health small-6 columns">
     <?php
             // Get the ID of a given category
-            $category_id = get_cat_ID( 'Adolescent Health' );
+            $category_id = get_cat_ID( 'Adolescent & Child Health' );
 
             // Get the URL of this category
             $category_link = get_category_link( $category_id );

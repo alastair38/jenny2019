@@ -197,6 +197,7 @@ HOME PAGE THEME BOXES / GENERAL GRID PADDING
   padding-left: 0px;
   padding-right: 0px; }
 
+.healthy-aging.columns,
 .adolescent-health.columns,
 .enabling-places.columns,
 .green-health.columns,
@@ -231,6 +232,13 @@ HOME PAGE THEME BOXES / GENERAL GRID PADDING
   background: #67893f;
   width: 100%;
   height: 175px; }
+
+  .healthy-aging .cat-details {
+    position: absolute;
+    left: 0;
+    background: tomato;
+    width: 100%;
+    height: 175px; }
 
   .adolescent-health .cat-details {
     position: absolute;
@@ -424,6 +432,11 @@ h1.hopeful-places {
   .large-2.adolescent-health,
   h1.adolescent-health {
     background-color: teal !important; }
+
+    li.healthy-aging a,
+    .large-2.healthy-aging,
+    h1.healthy-aging {
+      background-color: tomato !important; }
 
 li.name h1 a {
   display: none; }
@@ -622,8 +635,10 @@ dd.active a {
     background: #7a8490; }
   .resource-date.hopeful-places {
     background: #efbf4a; }
-    .resource-date.adolescent-health {
-      background: teal; }
+  .resource-date.adolescent-health {
+    background: teal; }
+  .resource-date.healthy-aging {
+    background: tomato; }
 
 .flex-video iframe {
   height: 250px; }
@@ -661,8 +676,10 @@ THEME COLOUR VARIABLES INC. CAROUSEL, FP AND CAT PAGES
   border-bottom: 4px solid #efbf4a; }
 .cat-excerpt.uncategorized a {
   border-bottom: 4px solid #414141; }
-  .cat-excerpt.adolescent-health a {
-    border-bottom: 4px solid teal; }
+.cat-excerpt.adolescent-health a {
+  border-bottom: 4px solid teal; }
+.cat-excerpt.healthy-aging a {
+  border-bottom: 4px solid tomato; }
 
 .blog-excerpt {
   position: relative;
@@ -694,8 +711,10 @@ THEME COLOUR VARIABLES INC. CAROUSEL, FP AND CAT PAGES
   border-bottom: 4px solid #efbf4a; }
 .blog-excerpt.uncategorized {
   border-bottom: 4px solid #414141; }
-  .blog-excerpt.adolescent-health {
-    border-bottom: 4px solid teal; }
+.blog-excerpt.adolescent-health {
+  border-bottom: 4px solid teal; }
+.blog-excerpt.healthy-aging {
+  border-bottom: 4px solid tomato; }
 
 .blog-date {
   font-size: 1em;
@@ -725,6 +744,10 @@ THEME COLOUR VARIABLES INC. CAROUSEL, FP AND CAT PAGES
   background: teal;
 }
 
+#healthy-aging {
+  background: tomato;
+}
+
 /********************
 SEARCH PAGES
 ********************/
@@ -742,8 +765,10 @@ SEARCH PAGES
     border-left: 5px solid #7a8490; }
   .search-content.hopeful-places {
     border-left: 5px solid #efbf4a; }
-    .search-content.adolescent-health {
-      border-left: 5px solid #efbf4a; }
+  .search-content.adolescent-health {
+    border-left: 5px solid teal; }
+  .search-content.healthy-aging {
+    border-left: 5px solid tomato; }
 
 .wpas-checkbox-container input[type=checkbox]:before {
   background: #fff;
@@ -886,7 +911,7 @@ h3.single-title:hover {
   color: #464646;
   padding: 5px; }
 
-article#enabling-places, article#green-health, article#blue-health, article#hopeful-places, article#adolescent-health {
+article#enabling-places, article#green-health, article#blue-health, article#hopeful-places, article#adolescent-health, article#healthy-aging {
   background: #fff; }
 
 /* end .hentry */
