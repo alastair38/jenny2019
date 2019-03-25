@@ -290,6 +290,10 @@ CAROUSEL AND SLIDER STYLING
   margin: 0;
   height: 350px; }
 
+.category .rslides {
+  height: 450px
+}
+
 .home .rslides {
   margin: 0 0 0 -15px; }
 
@@ -312,6 +316,10 @@ CAROUSEL AND SLIDER STYLING
   float: left;
   width: 100%;
   border: 0; }
+
+.category .rslides img {
+    height: 450px
+}
 
 .slider {
   font-size: .8em;
@@ -603,7 +611,7 @@ CATEGORY PAGE CONTENT BOXES
 article.large-6 {
   background: #fff; }
   article.large-6.columns {
-    height: 250px;
+    height: 200px;
     transition: .3s background; }
 
 article.large-12.columns.videos {
@@ -665,6 +673,13 @@ THEME COLOUR VARIABLES INC. CAROUSEL, FP AND CAT PAGES
   text-align: left;
   height: 100px;
   transition: .3s background; }
+
+.category .cat-excerpt a {
+  top: 350px;
+  height: 100px;
+  font-size: 1rem;
+  padding: .5rem;
+}
 
 .cat-excerpt.enabling-places a {
   border-bottom: 4px solid #998f76; }
@@ -1254,6 +1269,13 @@ SMALL
     margin-top: 3em;
     text-align: center;
     text-transform: uppercase; }
+
+  .category .cat-excerpt a {
+      top: 350px;
+      height: 100px;
+      font-size: .8rem;
+      padding: .25rem;
+    }
 
   .blog-excerpt {
     height: 250px; }
