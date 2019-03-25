@@ -71,6 +71,7 @@ global $post;
 $args = array(
 'post_type' => 'resources',
 'category_name' => $category_name,
+'nopaging' => true,
 'meta_key'		=> 'year_of_publication',
 'orderby'		=> array( 'meta_value' => 'DESC', 'date' => 'DESC' ),
 'order'			=> 'DESC'
