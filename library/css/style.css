@@ -508,6 +508,10 @@ h4.articles-title, h4.papers-title {
 .category p strong:first-of-type {
   background: #ebebe5; }
 
+.category .large-12.medium-12.small-12.columns {
+  margin-bottom: 1.5rem;
+}
+
 /*********************
 POST / RELATED CONTENT
 *********************/
@@ -611,6 +615,7 @@ CATEGORY PAGE CONTENT BOXES
 article.large-6 {
   background: #fff; }
   article.large-6.columns {
+    padding-top: 0.5rem;
     height: 200px;
     transition: .3s background; }
 
