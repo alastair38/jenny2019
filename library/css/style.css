@@ -376,8 +376,7 @@ CAROUSEL AND SLIDER STYLING
 .centered-btns_here a {
   background: #efbf4a; }
 
-.category .centered-btns_tabs {
-  display: none; }
+
 
 /*********************
 TWITTER WIDGET
@@ -686,20 +685,6 @@ THEME COLOUR VARIABLES INC. CAROUSEL, FP AND CAT PAGES
   padding: .5rem;
 }
 
-.cat-excerpt.enabling-places a {
-  border-bottom: 4px solid #998f76; }
-.cat-excerpt.green-health a {
-  border-bottom: 4px solid #67893f; }
-.cat-excerpt.blue-health a {
-  border-bottom: 4px solid #7a8490; }
-.cat-excerpt.hopeful-places a {
-  border-bottom: 4px solid #efbf4a; }
-.cat-excerpt.uncategorized a {
-  border-bottom: 4px solid #414141; }
-.cat-excerpt.adolescent-health a {
-  border-bottom: 4px solid teal; }
-.cat-excerpt.healthy-aging a {
-  border-bottom: 4px solid tomato; }
 
 .blog-excerpt {
   position: relative;
