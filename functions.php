@@ -25,7 +25,7 @@ library/joints.php
 */
 require_once('library/joints.php'); // if you remove this, Joints will break
 
-include_once('acf/acf.php' );
+//include_once('acf/acf.php' );
 
 require_once('library/custom-post-type.php'); // you can disable this if you like
 require_once('wp-advanced-search/wpas.php'); // adds WPAS files for building out advanced search
